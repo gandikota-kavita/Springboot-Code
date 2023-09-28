@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class RestControllerspringboot {
     @GetMapping()
     public String fetchHelloWorld() {
-        return "Hello Springboot Application";
+        return "Hello Springboot Application is deployed";
     }
 
 
